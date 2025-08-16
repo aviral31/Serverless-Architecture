@@ -135,16 +135,16 @@ This repository contains Python scripts and setup instructions for multiple **AW
 
    * Created a rule with event pattern and defined it for two instances created by me:
 
-     ```json
-   {
+ ```
+{
   "source": ["aws.ec2"],
   "detail-type": ["EC2 Instance State-change Notification"],
   "detail": {
     "instance-id": ["i-061465948878d6f02", "i-07025c962a68f9304"],
     "state": ["running", "stopped"]
   }
-}
-     ```
+}  
+```
    * Target = Lambda function.
 
 5. **Testing:**
