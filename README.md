@@ -29,7 +29,7 @@ This repository contains Python scripts and setup instructions for multiple **AW
 2. **IAM Role:**
 
    * Created a Lambda role.
-   * Attached `AmazonEC2FullAccess` policy (restrict in production).
+   * Attached `AmazonEC2FullAccess` policy.
 
 3. **Lambda Function:**
 
@@ -59,7 +59,7 @@ This repository contains Python scripts and setup instructions for multiple **AW
 2. **IAM Role:**
 
    * Created a Lambda role.
-   * Attached `AmazonS3FullAccess` (use restrictive policy in production).
+   * Attached `AmazonS3FullAccess`.
 
 3. **Lambda Function:**
 
