@@ -1,5 +1,5 @@
 # Serverless-Architecture
-This repository contains Python scripts and setup instructions for multiple **AWS Lambda assignments** designed to build hands-on DevOps skills with **EC2, S3, SNS, and EventBridge**. Each assignment demonstrates automation using **Boto3** (the AWS SDK for Python).
+This repository contains Python scripts and setup instructions for multiple **AWS Lambda assignments** designed to build hands-on skills with **EC2, S3, SNS, and EventBridge**. Each assignment demonstrates automation using **Boto3** (the AWS SDK for Python).
 
 ---
 
