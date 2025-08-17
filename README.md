@@ -31,7 +31,7 @@ This repository contains Python scripts and setup instructions for multiple **AW
    * Created a Lambda role.
    * Attached `AmazonEC2FullAccess` policy.
 
-3. **Lambda Function:**
+3. **Lambda Function:** (Function Name: Automated_Instance_Management)
 
    * Used Boto3 to:
 
@@ -61,7 +61,7 @@ This repository contains Python scripts and setup instructions for multiple **AW
    * Created a Lambda role.
    * Attached `AmazonS3FullAccess`.
 
-3. **Lambda Function:**
+3. **Lambda Function:** (Function Name: Aviral_S3_Bucket_Cleanup)
 
    * Used Boto3 to:
 
@@ -92,7 +92,7 @@ This repository contains Python scripts and setup instructions for multiple **AW
    * Created a Lambda role.
    * Attached `AmazonS3ReadOnlyAccess` policy.
 
-3. **Lambda Function:**
+3. **Lambda Function:** (Function Name: Aviral_S3_Bucket_Monitoring)
 
    * Used Boto3 to:
 
@@ -124,7 +124,7 @@ This repository contains Python scripts and setup instructions for multiple **AW
 
      * `AmazonSNSFullAccess`
 
-3. **Lambda Function:**
+3. **Lambda Function:** (Function Name: Aviral_Instance_Status_Notification)
 
    * Used Boto3 to:
 
